@@ -1,3 +1,7 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.img__portfolio{
+    height: 250px;
+    object-fit: cover;
 }
