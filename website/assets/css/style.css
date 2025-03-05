@@ -1,3 +1,56 @@
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+}
+.img__portfolio{
+    height: 250px;
+    object-fit: cover;
+}
+
+/*styles css "tagline" */
+
+.background-image { 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.title-main {
+    background-color: lightgray;
+    position: relative;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.title-main::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    
+}
+
+.title-secondary {
+    background-color: lightgray;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.title-secondary::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #FFC107; 
 }
